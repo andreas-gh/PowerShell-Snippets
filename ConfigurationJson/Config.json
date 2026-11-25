@@ -1,0 +1,28 @@
+{
+    "OutFile": "d:\\scratch\\out.csv",
+    "ServerList": [
+        {
+            "ServerName": "Server1",
+            "Customer": "CustomerA",
+            "Shared": true,
+            "CustomerSelection": [
+                {
+                    "Condition": "Cond1",
+                    "Pattern": "Pattern1",
+                    "Customer": "CustomerA1"
+                },  
+                {
+                    "Condition": "Cond2",
+                    "Pattern": "Pattern2",
+                    "Customer": "CustomerA2"
+                }
+            ]
+        },
+        {
+            "ServerName": "Server2",
+            "Customer": "CustomerB",
+            "Shared": false,
+            "CustomerSelection": []
+        }
+    ]
+}
